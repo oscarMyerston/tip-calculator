@@ -10,6 +10,7 @@
 		8D7BECD4293CDE5E003C5709 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD3293CDE5E003C5709 /* ThemeColor.swift */; };
 		8D7BECD6293CDE64003C5709 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD5293CDE64003C5709 /* ThemeFont.swift */; };
 		8D7BECD9293CDE90003C5709 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD8293CDE90003C5709 /* UIColor+Extension.swift */; };
+		8D7BECDC293CE489003C5709 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECDB293CE489003C5709 /* LabelFactory.swift */; };
 		8DA1B731293728D1006959C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B730293728D1006959C1 /* AppDelegate.swift */; };
 		8DA1B733293728D1006959C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B732293728D1006959C1 /* SceneDelegate.swift */; };
 		8DA1B735293728D1006959C1 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B734293728D1006959C1 /* CalculatorVC.swift */; };
@@ -51,6 +52,7 @@
 		8D7BECD3293CDE5E003C5709 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		8D7BECD5293CDE64003C5709 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		8D7BECD8293CDE90003C5709 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		8D7BECDB293CE489003C5709 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
 		8DA1B72D293728D1006959C1 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA1B730293728D1006959C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA1B732293728D1006959C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,14 @@
 			path = extension;
 			sourceTree = "<group>";
 		};
+		8D7BECDA293CE47E003C5709 /* factory */ = {
+			isa = PBXGroup;
+			children = (
+				8D7BECDB293CE489003C5709 /* LabelFactory.swift */,
+			);
+			path = factory;
+			sourceTree = "<group>";
+		};
 		8DA1B724293728D1006959C1 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		8DA1B72F293728D1006959C1 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8D7BECDA293CE47E003C5709 /* factory */,
 				8D7BECD7293CDE85003C5709 /* extension */,
 				8D7BECD2293CDE55003C5709 /* config */,
 				8DA1B76E293732D1006959C1 /* view */,
@@ -343,6 +354,7 @@
 				8DA1B7742937337B006959C1 /* BillInputView.swift in Sources */,
 				8DA1B7722937336C006959C1 /* ResultView.swift in Sources */,
 				8DA1B731293728D1006959C1 /* AppDelegate.swift in Sources */,
+				8D7BECDC293CE489003C5709 /* LabelFactory.swift in Sources */,
 				8D7BECD6293CDE64003C5709 /* ThemeFont.swift in Sources */,
 				8DA1B733293728D1006959C1 /* SceneDelegate.swift in Sources */,
 				8DA1B778293733A4006959C1 /* SplitInputView.swift in Sources */,
