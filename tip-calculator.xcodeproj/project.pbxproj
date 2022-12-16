@@ -30,6 +30,7 @@
 		8DA1B7762937338E006959C1 /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B7752937338E006959C1 /* TipInputView.swift */; };
 		8DA1B778293733A4006959C1 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B777293733A4006959C1 /* SplitInputView.swift */; };
 		8DD6FA76294B03E400EEA203 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6FA75294B03E400EEA203 /* UIView+Extension.swift */; };
+		8DD6FA7A294C0A4D00EEA203 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6FA79294C0A4D00EEA203 /* AmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		8DA1B7752937338E006959C1 /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
 		8DA1B777293733A4006959C1 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
 		8DD6FA75294B03E400EEA203 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		8DD6FA79294C0A4D00EEA203 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				8DA1B7732937337B006959C1 /* BillInputView.swift */,
 				8DA1B7752937338E006959C1 /* TipInputView.swift */,
 				8DA1B777293733A4006959C1 /* SplitInputView.swift */,
+				8DD6FA79294C0A4D00EEA203 /* AmountView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DD6FA7A294C0A4D00EEA203 /* AmountView.swift in Sources */,
 				8DA1B735293728D1006959C1 /* CalculatorVC.swift in Sources */,
 				8DD6FA76294B03E400EEA203 /* UIView+Extension.swift in Sources */,
 				8DA1B770293732DE006959C1 /* LogoView.swift in Sources */,
