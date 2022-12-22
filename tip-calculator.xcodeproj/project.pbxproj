@@ -29,6 +29,8 @@
 		8DA1B7742937337B006959C1 /* BillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B7732937337B006959C1 /* BillInputView.swift */; };
 		8DA1B7762937338E006959C1 /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B7752937338E006959C1 /* TipInputView.swift */; };
 		8DA1B778293733A4006959C1 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B777293733A4006959C1 /* SplitInputView.swift */; };
+		8DAB8071294EB7AC00A1D65C /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB8070294EB7AC00A1D65C /* Tip.swift */; };
+		8DAB8073294EB7CD00A1D65C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAB8072294EB7CD00A1D65C /* HeaderView.swift */; };
 		8DD6FA76294B03E400EEA203 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6FA75294B03E400EEA203 /* UIView+Extension.swift */; };
 		8DD6FA7A294C0A4D00EEA203 /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD6FA79294C0A4D00EEA203 /* AmountView.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +74,8 @@
 		8DA1B7732937337B006959C1 /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
 		8DA1B7752937338E006959C1 /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
 		8DA1B777293733A4006959C1 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
+		8DAB8070294EB7AC00A1D65C /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		8DAB8072294EB7CD00A1D65C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		8DD6FA75294B03E400EEA203 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		8DD6FA79294C0A4D00EEA203 /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,6 +160,7 @@
 		8DA1B72F293728D1006959C1 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8DAB806F294EB7A300A1D65C /* model */,
 				8D7BECDA293CE47E003C5709 /* factory */,
 				8D7BECD7293CDE85003C5709 /* extension */,
 				8D7BECD2293CDE55003C5709 /* config */,
@@ -203,8 +208,17 @@
 				8DA1B7752937338E006959C1 /* TipInputView.swift */,
 				8DA1B777293733A4006959C1 /* SplitInputView.swift */,
 				8DD6FA79294C0A4D00EEA203 /* AmountView.swift */,
+				8DAB8072294EB7CD00A1D65C /* HeaderView.swift */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		8DAB806F294EB7A300A1D65C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB8070294EB7AC00A1D65C /* Tip.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,8 +379,10 @@
 				8D7BECDC293CE489003C5709 /* LabelFactory.swift in Sources */,
 				8D7BECD6293CDE64003C5709 /* ThemeFont.swift in Sources */,
 				8DA1B733293728D1006959C1 /* SceneDelegate.swift in Sources */,
+				8DAB8071294EB7AC00A1D65C /* Tip.swift in Sources */,
 				8DA1B778293733A4006959C1 /* SplitInputView.swift in Sources */,
 				8DA1B7762937338E006959C1 /* TipInputView.swift in Sources */,
+				8DAB8073294EB7CD00A1D65C /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
