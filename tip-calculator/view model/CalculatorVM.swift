@@ -48,7 +48,7 @@ class CalculatorVM {
     case .fifteenPercent:
       return bill * 0.15
     case .twentyPercent:
-      return bill * 02
+      return bill * 0.2
     case .custom(let value):
       return Double(value)
     }
