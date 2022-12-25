@@ -17,6 +17,8 @@
 		8D7BECD6293CDE64003C5709 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD5293CDE64003C5709 /* ThemeFont.swift */; };
 		8D7BECD9293CDE90003C5709 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD8293CDE90003C5709 /* UIColor+Extension.swift */; };
 		8D7BECDC293CE489003C5709 /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECDB293CE489003C5709 /* LabelFactory.swift */; };
+		8D879B2B2957F05C00CC5763 /* click.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8D879B2A2957F05C00CC5763 /* click.m4a */; };
+		8D879B2E2957F07A00CC5763 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D879B2D2957F07A00CC5763 /* AudioPlayerService.swift */; };
 		8DA1B731293728D1006959C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B730293728D1006959C1 /* AppDelegate.swift */; };
 		8DA1B733293728D1006959C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B732293728D1006959C1 /* SceneDelegate.swift */; };
 		8DA1B735293728D1006959C1 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1B734293728D1006959C1 /* CalculatorVC.swift */; };
@@ -69,6 +71,8 @@
 		8D7BECD5293CDE64003C5709 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		8D7BECD8293CDE90003C5709 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		8D7BECDB293CE489003C5709 /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		8D879B2A2957F05C00CC5763 /* click.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.m4a; sourceTree = "<group>"; };
+		8D879B2D2957F07A00CC5763 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		8DA1B72D293728D1006959C1 /* tip-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tip-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DA1B730293728D1006959C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DA1B732293728D1006959C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -160,6 +164,22 @@
 			path = factory;
 			sourceTree = "<group>";
 		};
+		8D879B292957F04D00CC5763 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8D879B2A2957F05C00CC5763 /* click.m4a */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		8D879B2C2957F06D00CC5763 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				8D879B2D2957F07A00CC5763 /* AudioPlayerService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		8DA1B724293728D1006959C1 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +204,8 @@
 		8DA1B72F293728D1006959C1 /* tip-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				8D879B2C2957F06D00CC5763 /* service */,
+				8D879B292957F04D00CC5763 /* resource */,
 				8D0E8CAE2954396E0078E0F8 /* view model */,
 				8DAB806F294EB7A300A1D65C /* model */,
 				8D7BECDA293CE47E003C5709 /* factory */,
@@ -367,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D879B2B2957F05C00CC5763 /* click.m4a in Resources */,
 				8DA1B73D293728D3006959C1 /* LaunchScreen.storyboard in Resources */,
 				8DA1B73A293728D3006959C1 /* Assets.xcassets in Resources */,
 			);
@@ -405,6 +428,7 @@
 				8D7BECD4293CDE5E003C5709 /* ThemeColor.swift in Sources */,
 				8D7BECD9293CDE90003C5709 /* UIColor+Extension.swift in Sources */,
 				8DA1B7742937337B006959C1 /* BillInputView.swift in Sources */,
+				8D879B2E2957F07A00CC5763 /* AudioPlayerService.swift in Sources */,
 				8DA1B7722937336C006959C1 /* ResultView.swift in Sources */,
 				8DA1B731293728D1006959C1 /* AppDelegate.swift in Sources */,
 				8D7BECDC293CE489003C5709 /* LabelFactory.swift in Sources */,
