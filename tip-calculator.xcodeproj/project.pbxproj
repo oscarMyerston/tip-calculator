@@ -13,6 +13,7 @@
 		8D0D2C69295585FB00D584A4 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D2C68295585FB00D584A4 /* Double+Extension.swift */; };
 		8D0E8CB0295439790078E0F8 /* CalculatorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E8CAF295439790078E0F8 /* CalculatorVM.swift */; };
 		8D0E8CB229543A5F0078E0F8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E8CB129543A5F0078E0F8 /* Result.swift */; };
+		8D6D467E29606AE3004D2EE9 /* tip_calculatorSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6D467D29606AE3004D2EE9 /* tip_calculatorSnapshotTests.swift */; };
 		8D7BECD4293CDE5E003C5709 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD3293CDE5E003C5709 /* ThemeColor.swift */; };
 		8D7BECD6293CDE64003C5709 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD5293CDE64003C5709 /* ThemeFont.swift */; };
 		8D7BECD9293CDE90003C5709 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BECD8293CDE90003C5709 /* UIColor+Extension.swift */; };
@@ -67,6 +68,7 @@
 		8D0D2C68295585FB00D584A4 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		8D0E8CAF295439790078E0F8 /* CalculatorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVM.swift; sourceTree = "<group>"; };
 		8D0E8CB129543A5F0078E0F8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8D6D467D29606AE3004D2EE9 /* tip_calculatorSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tip_calculatorSnapshotTests.swift; sourceTree = "<group>"; };
 		8D7BECD3293CDE5E003C5709 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
 		8D7BECD5293CDE64003C5709 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		8D7BECD8293CDE90003C5709 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA1B747293728D3006959C1 /* tip_calculatorTests.swift */,
+				8D6D467D29606AE3004D2EE9 /* tip_calculatorSnapshotTests.swift */,
 			);
 			path = "tip-calculatorTests";
 			sourceTree = "<group>";
@@ -447,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA1B748293728D3006959C1 /* tip_calculatorTests.swift in Sources */,
+				8D6D467E29606AE3004D2EE9 /* tip_calculatorSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
